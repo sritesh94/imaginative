@@ -1,0 +1,114 @@
+@media screen and (max-width:768px){
+    .header-container,.company-info-container,.nav-container,.hero-section-container,.title-container,.quote-container,.banner-container,.footer-container,.copyright-container{
+        width: 100%;
+    }
+  #slider-container{
+      width: 100%;
+  }
+  .bannner{
+      width: 100%;
+  }
+  .header-after{
+    display: none;
+}
+.right li a{
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+.right li a:hover{
+    font-weight: 800;
+}
+.header-container{
+    position: relative;
+}
+.right li {
+    padding-top: 15px;
+}
+
+.header-container .right{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    top: 0;
+    background-color: #97455f;
+    z-index: 30;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    width: 220px;
+    display: none;
+    height: 30vh;
+}
+.hamburger{
+    display: block;
+    top: 10px;
+    right: 25px;
+    position: absolute;
+    z-index: 30;
+}
+.company-info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+/*  Nav Container */
+.nav{
+    position: relative;
+}
+.nav-container{
+    background: none;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    position: absolute;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.active-menu{
+    background: none;
+}
+.nav-hamburger{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 15px;
+}
+.hero-section-container{
+    margin-top: 20px;
+}
+
+/* Title Section */
+
+.heading-title{
+    width: 100%;
+}
+.heading-title hr {
+    width: 36%;
+}
+.main-content ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.quote-heading hr {
+    width: 25%;
+}
+.banner{
+    width: 100%;
+    grid-template-columns:3fr 2fr;
+    gap: 20px;
+}
+}
