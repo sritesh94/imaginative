@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var owl = $('.owl-carousel');
     owl.owlCarousel({
+      stagePadding:0,
       loop:true,
       margin:10,
       nav:false,

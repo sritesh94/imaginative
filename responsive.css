@@ -123,6 +123,14 @@
 }
 }
 @media screen and (max-width:767px){
+    .hero-section-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #slider-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .hero-section .text-content{
         display: none;
     }
@@ -177,6 +185,6 @@
         align-items: center;
     }
     footer form input,textarea{
-        width: 50%;
+        width: 100%;
     }
 }
