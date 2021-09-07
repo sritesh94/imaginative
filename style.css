@@ -292,7 +292,6 @@ nav{
     top: 50%;
     right: 10px;
 }
-
 .main-content{
     padding: 10px;
 }
@@ -306,6 +305,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
 .main-text {
     width: 100%;
 }

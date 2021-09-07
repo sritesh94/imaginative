@@ -12,7 +12,7 @@ $(document).ready(function(){
       $(".searchbar").hide();
       $(".minus").hide();
       $(".plus").show();
-      $(".company-info-container").css("padding-top","35px");
+      $(".company-info-container").css("padding-top","25px");
     })
     $(".plus").click(function(){
       $(".searchbar").show();
